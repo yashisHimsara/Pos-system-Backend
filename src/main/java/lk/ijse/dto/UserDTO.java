@@ -1,16 +1,14 @@
 package lk.ijse.dto;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Data
-public class CustomerDTO {
-    String id;
-    String name;
-    String address;
-    double salary;
+public class UserDTO {
+    private String username;
+    private String email;
+    private String password;
 }
