@@ -71,7 +71,7 @@ public class CustomerBOImpl implements CustomerBO {
 //        customerDTO.setSalary(customer.getSalary());
 //
 //        return customerDTO;
-//    }
+//
 
 }
 
