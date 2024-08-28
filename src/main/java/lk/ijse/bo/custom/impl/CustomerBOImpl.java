@@ -61,4 +61,18 @@ public class CustomerBOImpl implements CustomerBO {
 
         return customerDTO;
     }
+//    @Override
+//    public lk.ijse.dto.CustomerDTO get(String id, Connection connection) {
+//        Customer customer = customerData.get(id, connection);
+//        lk.ijse.dto.CustomerDTO customerDTO = new lk.ijse.dto.CustomerDTO();
+//        customerDTO.setId(customer.getId());
+//        customerDTO.setName(customer.getName());
+//        customerDTO.setAddress(customer.getAddress());
+//        customerDTO.setSalary(customer.getSalary());
+//
+//        return customerDTO;
+//    }
+
 }
+
+
